@@ -27,9 +27,12 @@ export default function Hero() {
             {/* Header Navigation */}
             <div className="flex justify-between items-center mb-16">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Carl Vincent G. Platil</h2>
-              <button className="bg-gray-900 text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition">
+              <a
+                href="mailto:carlnibai@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Carl%2C%0A%0AI%27m%20reaching%20out%20about%20your%20portfolio.%20Please%20let%20me%20know%20a%20good%20time%20to%20connect.%0A%0ARegards%2C%0A%5BYour%20Name%5D"
+                className="bg-gray-900 text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition"
+              >
                 carlnibai@gmail.com
-              </button>
+              </a>
             </div>
 
             {/* Main Content Grid */}
@@ -65,7 +68,7 @@ export default function Hero() {
                 {/* Profile Rectangle */}
                 <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden border-8 border-white shadow-2xl z-10 transform hover:scale-105 transition-transform duration-300">
                   <Image
-                    src="/profile.jpg"
+                    src="/profile.png"
                     alt="Carl Vincent G. Platil"
                     fill
                     className="object-cover"
