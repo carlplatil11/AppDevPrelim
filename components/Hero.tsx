@@ -114,8 +114,9 @@ export default function Hero() {
                   <Image
                     src="/profile.jpg"
                     alt="Carl Vincent G. Platil"
-                    fill
-                    className="object-cover"
+                    width={400}
+                    height={500}
+                    className="object-cover w-full h-full"
                     priority
                   />
                   {/* Overlay gradient */}
